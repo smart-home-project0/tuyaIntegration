@@ -18,3 +18,5 @@
     Function to turn on or off a device that accepts a token and creates a signature, uses the crypto library. Not working !!
 - sign:
     A function that creates a signature using a crypto library. Works -not useful
+- fromTuya:
+    A code in the API to create a signature to receive a token and create a signature for other actions plus a command to turn off or turn on a device from Tuya support.
