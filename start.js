@@ -38,7 +38,7 @@ const res = await tuya.request({
         commands: [
             {
                 code: 'switch_1',
-                value: false
+                value: true
             }
         ]
     }
@@ -83,9 +83,9 @@ const devices = await tuya.device.list({
     device_ids: 'bfcca327de01d70a53yjvi'
     });
 console.log("Devices:", devices);
-console.log("Devices details:", devices.result.list);
+// console.log("Devices details:", devices.result.list);
 
-console.log("===========space details ===============");
+console.log("=========== space details ===============");
 const spaceDetails = await tuya.request({
     method: 'GET',
     path: `/v2.0/cloud/space/227219137`
